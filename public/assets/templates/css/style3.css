@@ -1,0 +1,82 @@
+/* Navigation Bradcrumb */
+.breadcrumb ol {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrumb ol li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Popins", sans-serif;
+}
+
+.breadcrumb li::after {
+    content: "/";
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.breadcrumb li:last-child::after {
+    content: "";
+}
+
+/* Card */
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card .box-image img {
+    width: 100%;
+    background-size: cover;
+}
+
+.card .box-content {
+    padding: 10px 10px;
+    line-height: 2.5;
+}
+
+.card .box-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.card .box-content span {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.card .container-color {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card .container-color ul {
+    display: flex;
+    gap: 5px;
+}
+
+.card .color {
+    width: 20px;
+    height: 20px;
+    background: orange;
+    border-radius: 50%;
+}

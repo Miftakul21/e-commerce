@@ -1,0 +1,152 @@
+/* Navigation Bradcrumb */
+.breadcrumb ol {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrumb ol li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Popins", sans-serif;
+}
+
+.breadcrumb li::after {
+    content: "/";
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.breadcrumb li:last-child::after {
+    content: "";
+}
+
+.detail-product .row {
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.detail-product .col-1 {
+    width: 500px;
+}
+
+.detail-product .col-2 {
+    width: 600px;
+}
+
+.box-image-preview {
+    width: 350px;
+    height: 300px;
+}
+
+.box-image-preview img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.box-image-preview:nth-child(2) {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.box-image-preview:nth-child(2) img {
+    width: 110px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.title-product {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.2px;
+    border-bottom: 1px solid #c7c4c4;
+    margin-bottom: 15px;
+}
+
+.content-description {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+}
+
+.price,
+.container-color span,
+.stok {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.container-color {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-color ul {
+    display: flex;
+    gap: 10px;
+}
+
+.color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: orange;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-group select,
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.btn-order {
+    display: block;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: orange;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+    background-color: rgb(224, 158, 36);
+    transition: 0.3s;
+}

@@ -1,0 +1,105 @@
+/* Card Checkout */
+.card-checkout {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px 60px;
+    background: #fff;
+    border: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-logo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.card-logo img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #a3a3a3;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user,
+.nomor-telepon,
+.alamat {
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.user p:nth-child(2) {
+    margin-left: 48px;
+}
+
+.nomor-telepon p:nth-child(2) {
+    margin-left: 20px;
+}
+
+.alamat p:nth-child(2) {
+    margin-left: 42px;
+}
+
+.pesanan,
+.pengiriman {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.pesanan p,
+.pengiriman p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 5px;
+    border: 2px solid #ebebeb;
+    border-style: dashed;
+}
+
+.container-total-harga {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.total {
+    display: flex;
+    gap: 30px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-button button {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: orange;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+.container-button button:hover {
+    cursor: pointer;
+    background-color: rgb(224, 158, 36);
+    transition: 0.3s;
+}

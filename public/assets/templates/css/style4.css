@@ -1,0 +1,137 @@
+/* Navigation Bradcrumb */
+.breadcrumb ol {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.breadcrumb ol li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Popins", sans-serif;
+}
+
+.breadcrumb li::after {
+    content: "/";
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.breadcrumb li:last-child::after {
+    content: "";
+}
+
+/* List Order Table */
+.table-order {
+    padding: 0 128px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+table th {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+table td {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+table td:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+table td img {
+    width: 80px;
+    height: 80px;
+    padding-left: 5px;
+}
+
+.delete-button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Order */
+.pesan {
+    margin-top: 20px;
+    padding: 0 128px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.pesan form {
+    grid: unset;
+}
+
+.pesan .form-group-wilayah {
+    display: flex;
+    gap: 20px;
+}
+
+.pesan .form-group {
+    margin-bottom: 10px;
+}
+
+.pesan .form-group label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: "Popins", sans-serif;
+    margin-bottom: 5px;
+}
+
+.pesan .form-group select {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Popins", sans-serif;
+    margin-left: 0;
+}
+
+.pesan h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+}
+
+.pesan .btn-checkout {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Popins", sans-serif;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: orange;
+    border-radius: 5px;
+}
+
+.pesan .btn-checkout:hover {
+    cursor: pointer;
+    background-color: rgb(224, 158, 36);
+    transition: 0.3s;
+}
